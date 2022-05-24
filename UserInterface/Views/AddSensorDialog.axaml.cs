@@ -244,6 +244,22 @@ namespace UserInterface.Views
                     item.UpdateInterval = 5;
                     break;
 
+                case AvailableSensors.MouseBatterySensor:
+                    item.Description = "This sensor returns the current mouse battery.";
+                    item.MoreInfoLink = "";
+                    item.ShowQueryInput = false;
+                    item.ShowWindowNameInput = false;
+                    item.UpdateInterval = 3000;
+                    break;
+
+                case AvailableSensors.HeadsetBatterySensor:
+                    item.Description = "This sensor returns the current headset battery.";
+                    item.MoreInfoLink = "";
+                    item.ShowQueryInput = false;
+                    item.ShowWindowNameInput = false;
+                    item.UpdateInterval = 3000;
+                    break;
+
                 default:
                     item.Description = null;
                     item.MoreInfoLink = null;

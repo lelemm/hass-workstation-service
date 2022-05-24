@@ -188,6 +188,8 @@ namespace hass_workstation_service.Communication.InterProcesCommunication
                 AvailableSensors.GPUTemperatureSensor => new GpuTemperatureSensor(_publisher, (int)model.UpdateInterval, model.Name),
                 AvailableSensors.GPULoadSensor => new GpuLoadSensor(_publisher, (int)model.UpdateInterval, model.Name),
                 AvailableSensors.MasterVolumeSensor => new MasterVolumeSensor(_publisher, (int)model.UpdateInterval, model.Name),
+                AvailableSensors.MouseBatterySensor => new MouseBatterySensor(_publisher, (int)model.UpdateInterval, model.Name),
+                AvailableSensors.HeadsetBatterySensor => new HeadsetBatterySensor(_publisher, (int)model.UpdateInterval, model.Name),
                 _ => null
             };
         }

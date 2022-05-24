@@ -2,3 +2,10 @@
 .vs/
 
 *.user
+/HidLibrary/bin
+/HidLibrary/obj
+/HIDReader/bin
+/HIDReader/obj
+/packages/hidlibrary.3.3.40
+/Peripherals/bin
+/Peripherals/obj

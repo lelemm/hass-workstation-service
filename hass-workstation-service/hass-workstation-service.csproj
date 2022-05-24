@@ -67,6 +67,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Peripherals\Peripherals.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="CoreAudio">
       <HintPath>..\lib\CoreAudio.dll</HintPath>
     </Reference>

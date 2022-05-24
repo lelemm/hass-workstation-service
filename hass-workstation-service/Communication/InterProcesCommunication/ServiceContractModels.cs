@@ -110,7 +110,9 @@ namespace hass_workstation_service.Communication.InterProcesCommunication.Models
         CurrentVolumeSensor,
         MasterVolumeSensor,
         GPUTemperatureSensor,
-        GPULoadSensor
+        GPULoadSensor,
+        MouseBatterySensor,
+        HeadsetBatterySensor
     }
 
     public enum AvailableCommands

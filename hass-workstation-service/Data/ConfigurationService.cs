@@ -155,6 +155,12 @@ namespace hass_workstation_service.Data
                     case "GpuLoadSensor":
                         sensor = new GpuLoadSensor(publisher, configuredSensor.UpdateInterval, configuredSensor.Name, configuredSensor.Id);
                         break;
+                    case "MouseBatterySensor":
+                        sensor = new MouseBatterySensor(publisher, configuredSensor.UpdateInterval, configuredSensor.Name, configuredSensor.Id);
+                        break;
+                    case "HeadsetBatterySensor":
+                        sensor = new HeadsetBatterySensor(publisher, configuredSensor.UpdateInterval, configuredSensor.Name, configuredSensor.Id);
+                        break;
                     // keep this one last!
                     case "WMIQuerySensor":
                         sensor = new WMIQuerySensor(publisher, configuredSensor.Query, configuredSensor.UpdateInterval, configuredSensor.Name, configuredSensor.Id, configuredSensor.Scope);
